@@ -1,0 +1,19 @@
+[user]
+        name = Julien COUSIN-ALLIOT
+        email = julien.cousinalliot@gmail.com
+[core]
+        excludesfile = /home/nispeon/.gitignore_global
+[push]
+        default = current
+[fetch]
+        prune = true
+[rebase]
+        autostash = true
+        autorebase = true
+[branch]
+        autosetuprebase = always
+        sort = -committerdate
+[status]
+        showUntrackedFiles = all
+[alias]
+            lg = log --graph --pretty=tformat:'%Cred%h%Creset -%C(cyan)%d %Creset%s %Cgreen(%an %cr)%Creset' --abbrev-commit
