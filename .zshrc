@@ -36,6 +36,8 @@ alias gd="git diff"
 alias glg="git log"
 alias gs="git checkout"
 alias hg="history | grep"
+alias sail="./vendor/bin/sail"
+alias vps="echo ssh ubuntu@xx.xxx.xxx.x go look for the ip on your provider ^^"
 
 #compdef castor
 
